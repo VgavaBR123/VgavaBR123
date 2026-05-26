@@ -305,47 +305,6 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
   <img src="divider.svg" width="100%" />
 </div>
 
-<!-- ═══════════════════════════ ARCHITECTURE ═══════════════════════════ -->
-
-<h2 align="center">
-  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
-  &nbsp;ARCHITECTURE&nbsp;
-  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
-</h2>
-
-```
-                ╔══════════════════════════════════════════════════════════╗
-                ║                   SEMEC TECH STACK                      ║
-                ╚══════════════════════════════════════════════════════════╝
-
-  ┌───────────┐     ┌──────────┐     ┌────────────┐     ┌────────────────┐
-  │  Elotech   │────▸│   FDW    │────▸│  semec_db  │────▸│   Dashboard    │
-  │  (fonte)   │     │  dblink  │     │   Docker   │     │   Análises     │
-  └───────────┘     └──────────┘     └──────┬─────┘     └────────────────┘
-                                            │
-                                   ┌────────┴────────┐
-                                   │                  │
-                              ┌────▾────┐       ┌─────▾──────┐
-                              │pgvector │       │ semec_geo  │
-                              │  RAG    │       │ Cadastral  │
-                              └────┬────┘       └────────────┘
-                                   │
-                            ┌──────▾───────┐
-                            │  Bot SEMEC    │
-                            │  LLM Agent   │
-                            └──────┬───────┘
-                                   │
-                            ┌──────▾───────┐
-                            │   Cidadão     │
-                            │  🏛️  🤖  📊   │
-                            └──────────────┘
-```
-
-<!-- ▸▸▸ DIVIDER ▸▸▸ -->
-<div align="center">
-  <img src="divider.svg" width="100%" />
-</div>
-
 <!-- ═══════════════════════════ METRICS ═══════════════════════════ -->
 
 <h2 align="center">
