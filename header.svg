@@ -1,0 +1,218 @@
+<svg width="100%" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="280">
+      <stop offset="0%" stop-color="#030711"/>
+      <stop offset="40%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0" y1="0" x2="500" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="accent-full" x1="0" y1="0" x2="600" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="40%" stop-color="#4cc9f0"/>
+      <stop offset="70%" stop-color="#7b68ee"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="line-h" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00e5ff" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-down" x1="0" y1="0" x2="0" y2="280">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-lg">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glitch-r">
+      <feOffset dx="2" dy="0" in="SourceGraphic" result="r"/>
+      <feColorMatrix in="r" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 0"/>
+    </filter>
+    <clipPath id="clip-main"><rect width="900" height="280"/></clipPath>
+  </defs>
+
+  <style>
+    /* ── keyframes ── */
+    @keyframes scan { 0%{transform:translateY(-280px)} 100%{transform:translateY(280px)} }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+    @keyframes pulse-soft { 0%,100%{opacity:.15} 50%{opacity:.35} }
+    @keyframes dash-draw { to{stroke-dashoffset:0} }
+    @keyframes float-up { 0%{opacity:0;transform:translateY(8px)} 100%{opacity:1;transform:translateY(0)} }
+    @keyframes rain-1 { 0%{transform:translateY(-30px);opacity:0} 15%{opacity:.5} 85%{opacity:.5} 100%{transform:translateY(290px);opacity:0} }
+    @keyframes rain-2 { 0%{transform:translateY(-60px);opacity:0} 20%{opacity:.4} 80%{opacity:.4} 100%{transform:translateY(300px);opacity:0} }
+    @keyframes rain-3 { 0%{transform:translateY(-10px);opacity:0} 10%{opacity:.3} 90%{opacity:.3} 100%{transform:translateY(310px);opacity:0} }
+    @keyframes glitch-1 { 0%,92%,100%{transform:translate(0)} 93%{transform:translate(3px,-1px)} 96%{transform:translate(-2px,1px)} }
+    @keyframes node-breathe { 0%,100%{r:2.5;opacity:.5} 50%{r:4;opacity:1} }
+    @keyframes orb-float { 0%,100%{transform:translate(0,0);opacity:.08} 33%{transform:translate(15px,-10px);opacity:.14} 66%{transform:translate(-10px,8px);opacity:.06} }
+
+    /* ── assignments ── */
+    .scan{animation:scan 5s linear infinite}
+    .blink{animation:blink .75s step-end infinite}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    .pulse-s{animation:pulse-soft 4s ease-in-out infinite}
+    .dash{stroke-dasharray:500;stroke-dashoffset:500;animation:dash-draw 2.5s ease-out forwards}
+    .dash-d{stroke-dasharray:350;stroke-dashoffset:350;animation:dash-draw 2.5s ease-out .4s forwards}
+    .dash-e{stroke-dasharray:250;stroke-dashoffset:250;animation:dash-draw 2s ease-out .8s forwards}
+    .float{animation:float-up .8s ease-out both}
+    .f1{animation-delay:1.6s} .f2{animation-delay:1.8s} .f3{animation-delay:2s} .f4{animation-delay:2.2s} .f5{animation-delay:2.4s} .f6{animation-delay:2.6s}
+    .rain-a{animation:rain-1 6s linear infinite}
+    .rain-b{animation:rain-2 8s linear infinite 1s}
+    .rain-c{animation:rain-3 7s linear infinite 2.5s}
+    .rain-d{animation:rain-1 9s linear infinite 4s}
+    .rain-e{animation:rain-2 5.5s linear infinite .5s}
+    .rain-f{animation:rain-3 7.5s linear infinite 3s}
+    .rain-g{animation:rain-1 6.5s linear infinite 1.8s}
+    .rain-h{animation:rain-2 8.5s linear infinite 2.2s}
+    .glitch{animation:glitch-1 4s ease-in-out infinite}
+    .node-b{animation:node-breathe 2.5s ease-in-out infinite}
+    .node-b2{animation:node-breathe 2.5s ease-in-out infinite .8s}
+    .node-b3{animation:node-breathe 2.5s ease-in-out infinite 1.6s}
+    .orb{animation:orb-float 12s ease-in-out infinite}
+    .orb2{animation:orb-float 15s ease-in-out infinite 4s}
+    .orb3{animation:orb-float 10s ease-in-out infinite 7s}
+  </style>
+
+  <g clip-path="url(#clip-main)">
+
+  <!-- ▸ BACKGROUND -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="900" height="280" fill="url(#fade-down)"/>
+
+  <!-- ▸ AMBIENT ORBS -->
+  <circle cx="750" cy="60" r="100" fill="#00e5ff" opacity=".08" class="orb"/>
+  <circle cx="120" cy="200" r="80" fill="#7b68ee" opacity=".06" class="orb2"/>
+  <circle cx="500" cy="140" r="120" fill="#4cc9f0" opacity=".04" class="orb3"/>
+
+  <!-- ▸ GRID -->
+  <g opacity=".04">
+    <line x1="0" y1="35" x2="900" y2="35" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="70" x2="900" y2="70" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="105" x2="900" y2="105" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="140" x2="900" y2="140" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="175" x2="900" y2="175" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="210" x2="900" y2="210" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="0" y1="245" x2="900" y2="245" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="90" y1="0" x2="90" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="180" y1="0" x2="180" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="270" y1="0" x2="270" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="450" y1="0" x2="450" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="630" y1="0" x2="630" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="720" y1="0" x2="720" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+    <line x1="810" y1="0" x2="810" y2="280" stroke="#4cc9f0" stroke-width=".4" class="pulse-s"/>
+  </g>
+
+  <!-- ▸ DATA RAIN -->
+  <g font-family="'JetBrains Mono',monospace" font-size="9" fill="#00e5ff">
+    <text x="42" y="20" class="rain-a">01</text>
+    <text x="155" y="50" class="rain-b">0xF</text>
+    <text x="310" y="10" class="rain-c">██</text>
+    <text x="480" y="40" class="rain-d">11</text>
+    <text x="590" y="25" class="rain-e">⟐</text>
+    <text x="680" y="55" class="rain-f">00</text>
+    <text x="820" y="15" class="rain-g">▓▒</text>
+    <text x="860" y="45" class="rain-h">10</text>
+  </g>
+
+  <!-- ▸ CIRCUIT TRACES — LEFT -->
+  <path d="M0 120 L55 120 L75 85 L140 85" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity=".35" class="dash" filter="url(#glow)"/>
+  <path d="M0 150 L35 150 L50 175 L120 175" stroke="#7b68ee" stroke-width="1" fill="none" opacity=".2" class="dash-d"/>
+  <path d="M0 90 L25 90 L40 60 L100 60" stroke="#4cc9f0" stroke-width=".8" fill="none" opacity=".15" class="dash-e"/>
+  <!-- nodes left -->
+  <circle cx="140" cy="85" r="3" fill="#00e5ff" class="node-b" filter="url(#glow)"/>
+  <circle cx="120" cy="175" r="2.5" fill="#7b68ee" class="node-b2"/>
+  <circle cx="100" cy="60" r="2" fill="#4cc9f0" class="node-b3"/>
+
+  <!-- ▸ CIRCUIT TRACES — RIGHT -->
+  <path d="M900 100 L840 100 L820 65 L760 65" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity=".35" class="dash" filter="url(#glow)"/>
+  <path d="M900 160 L855 160 L840 190 L780 190" stroke="#c084fc" stroke-width="1" fill="none" opacity=".2" class="dash-d"/>
+  <path d="M900 130 L870 130 L855 105 L810 105" stroke="#4cc9f0" stroke-width=".8" fill="none" opacity=".15" class="dash-e"/>
+  <!-- nodes right -->
+  <circle cx="760" cy="65" r="3" fill="#00e5ff" class="node-b" filter="url(#glow)"/>
+  <circle cx="780" cy="190" r="2.5" fill="#c084fc" class="node-b2"/>
+  <circle cx="810" cy="105" r="2" fill="#4cc9f0" class="node-b3"/>
+
+  <!-- ▸ DECORATIVE HEX — top right -->
+  <g opacity=".08" transform="translate(770,15)">
+    <polygon points="30,0 55,15 55,40 30,55 5,40 5,15" stroke="#4cc9f0" stroke-width=".8" fill="none"/>
+    <polygon points="65,18 85,30 85,50 65,62 45,50 45,30" stroke="#7b68ee" stroke-width=".6" fill="none"/>
+  </g>
+
+  <!-- ▸ TERMINAL PROMPT -->
+  <text x="180" y="62" font-family="'JetBrains Mono','Fira Code','Cascadia Code',monospace" font-size="12" fill="#3fb950" opacity=".6">
+    ~/vgava ❯
+  </text>
+  <text x="280" y="62" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b949e" opacity=".35">
+    cat profile.yml
+  </text>
+
+  <!-- ▸ MAIN NAME — with glitch -->
+  <g class="glitch">
+    <text x="180" y="112" font-family="'JetBrains Mono','Fira Code','Cascadia Code',monospace" font-size="42" font-weight="bold" fill="url(#accent-full)" filter="url(#glow-lg)">
+      VINICIUS GAVA
+    </text>
+  </g>
+  <!-- glitch ghost layers -->
+  <text x="182" y="111" font-family="'JetBrains Mono',monospace" font-size="42" font-weight="bold" fill="#00e5ff" opacity=".06">VINICIUS GAVA</text>
+  <text x="178" y="113" font-family="'JetBrains Mono',monospace" font-size="42" font-weight="bold" fill="#c084fc" opacity=".04">VINICIUS GAVA</text>
+
+  <!-- ▸ CURSOR -->
+  <rect x="600" y="82" width="3" height="34" fill="#00e5ff" class="blink" filter="url(#glow)"/>
+
+  <!-- ▸ SUBTITLE -->
+  <text x="180" y="145" font-family="'JetBrains Mono',monospace" font-size="13.5" fill="#8b949e" class="float f1">
+    Mechatronic Engineer  ⟐  Data Science  ⟐  GovTech Director
+  </text>
+
+  <!-- ▸ STATUS LINE -->
+  <text x="180" y="170" font-family="'JetBrains Mono',monospace" font-size="11" fill="#3fb950" opacity=".55" class="float f2">
+    ● online
+  </text>
+  <text x="252" y="170" font-family="'JetBrains Mono',monospace" font-size="11" fill="#8b949e" opacity=".35" class="float f2">
+    — Porto Velho, RO, Brasil
+  </text>
+
+  <!-- ▸ TAGS ROW -->
+  <rect x="180" y="188" width="76" height="22" rx="4" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-width=".7" stroke-opacity=".4" class="float f3"/>
+  <text x="195" y="203" font-family="'JetBrains Mono',monospace" font-size="10" fill="#00e5ff" class="float f3">Python</text>
+
+  <rect x="266" y="188" width="56" height="22" rx="4" fill="#4cc9f0" fill-opacity=".08" stroke="#4cc9f0" stroke-width=".7" stroke-opacity=".4" class="float f3"/>
+  <text x="282" y="203" font-family="'JetBrains Mono',monospace" font-size="10" fill="#4cc9f0" class="float f3">SQL</text>
+
+  <rect x="332" y="188" width="76" height="22" rx="4" fill="#7b68ee" fill-opacity=".08" stroke="#7b68ee" stroke-width=".7" stroke-opacity=".4" class="float f4"/>
+  <text x="345" y="203" font-family="'JetBrains Mono',monospace" font-size="10" fill="#7b68ee" class="float f4">Docker</text>
+
+  <rect x="418" y="188" width="50" height="22" rx="4" fill="#c084fc" fill-opacity=".08" stroke="#c084fc" stroke-width=".7" stroke-opacity=".4" class="float f5"/>
+  <text x="434" y="203" font-family="'JetBrains Mono',monospace" font-size="10" fill="#c084fc" class="float f5">AI</text>
+
+  <rect x="478" y="188" width="60" height="22" rx="4" fill="#f0883e" fill-opacity=".08" stroke="#f0883e" stroke-width=".7" stroke-opacity=".4" class="float f6"/>
+  <text x="494" y="203" font-family="'JetBrains Mono',monospace" font-size="10" fill="#f0883e" class="float f6">MCP</text>
+
+  <!-- ▸ ACCENT LINE -->
+  <rect x="180" y="225" width="360" height="1" fill="url(#line-h)" opacity=".6" class="pulse"/>
+
+  <!-- ▸ SCAN LINE -->
+  <rect width="900" height="1.5" fill="url(#line-h)" opacity=".1" class="scan"/>
+
+  <!-- ▸ VERSION / LOCATION -->
+  <text x="180" y="248" font-family="'JetBrains Mono',monospace" font-size="9" fill="#3fb950" opacity=".3">
+    v3.0.26
+  </text>
+  <text x="230" y="248" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8b949e" opacity=".2">
+    // SEMEC DTI · Smart Print · Open Source
+  </text>
+
+  <!-- ▸ BOTTOM BORDER -->
+  <rect x="0" y="278" width="900" height="2" fill="url(#line-h)" opacity=".3"/>
+
+  </g>
+</svg>
