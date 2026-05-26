@@ -348,27 +348,6 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
   <img src="divider.svg" width="100%" />
 </div>
 
-<!-- ═══════════════════════════ TROPHIES ═══════════════════════════ -->
-
-<h2 align="center">
-  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
-  &nbsp;TROPHIES&nbsp;
-  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
-</h2>
-
-<div align="center">
-
-<a href="https://github.com/vgavabr123">
-  <img src="https://github-profile-trophy.vercel.app/?username=vgavabr123&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=15&v=2" alt="trophies" />
-</a>
-
-</div>
-
-<!-- ▸▸▸ DIVIDER ▸▸▸ -->
-<div align="center">
-  <img src="divider.svg" width="100%" />
-</div>
-
 <!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
 
 <h2 align="center">
