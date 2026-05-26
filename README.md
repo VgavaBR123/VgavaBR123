@@ -13,32 +13,11 @@
 
 </div>
 
-<!-- ▸▸▸ ABOUT — terminal style ▸▸▸ -->
+<!-- ▸▸▸ ABOUT — animated terminal SVG ▸▸▸ -->
 
-```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│  ~/vgava ❯ whoami                                                            │
-│                                                                              │
-│  Engenheiro Mecatrônico de formação.                                         │
-│  Pós-graduando em Ciência de Dados.                                          │
-│  Diretor do Departamento de Tecnologia (DTI)                                 │
-│  Secretaria Municipal de Economia — Porto Velho, RO.                         │
-│                                                                              │
-│  Construo pipelines de dados fiscais, malhas automatizadas de                │
-│  conformidade tributária por CNPJ e agentes de IA para o setor público.      │
-│                                                                              │
-│  ~/vgava ❯ cat side_quests.txt                                               │
-│                                                                              │
-│  🖨️ Smart Print — ecossistema de impressão 3D                                │
-│  🧩 Model Context Protocol — LLMs conectados a ferramentas locais           │
-│  🎨 UI/UX · Figma · GSAP — porque engenheiro também faz design              │
-│                                                                              │
-│  ~/vgava ❯ echo $PHILOSOPHY                                                  │
-│  "Dados bem orquestrados são decisões públicas mais inteligentes."           │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-```
+<div align="center">
+  <img src="about.svg" width="100%" alt="Vinicius Gava Terminal" />
+</div>
 
 <!-- ▸▸▸ DIVIDER ▸▸▸ -->
 <div align="center">
