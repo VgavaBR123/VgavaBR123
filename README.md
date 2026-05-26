@@ -358,44 +358,25 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <div align="center">
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="center" style="padding: 10px;">
-      <a href="https://www.linkedin.com/in/vinicius-gava-87b734353/">
-        <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
-        <br/><sub><b>LinkedIn</b></sub>
-      </a>
-    </td>
-    <td align="center" style="padding: 10px;">
-      <a href="mailto:gavadeoliveira@outlook.com">
-        <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" height="50" alt="Email" />
-        <br/><sub><b>Email</b></sub>
-      </a>
-    </td>
-    <td align="center" style="padding: 10px;">
-      <a href="https://github.com/VgavaBR123">
-        <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
-        <br/><sub><b>GitHub</b></sub>
-      </a>
-    </td>
-    <td align="center" style="padding: 10px;">
-      <a href="https://portfolio-tan-ten-22.vercel.app/">
-        <img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="50" height="50" alt="Portfolio" />
-        <br/><sub><b>Portfolio</b></sub>
-      </a>
-    </td>
-    <td align="center" style="padding: 10px;">
-      <a href="https://wa.me/5569993706233">
-        <img src="https://skillicons.dev/icons?i=workers&theme=dark" width="50" height="50" alt="WhatsApp" />
-        <br/><sub><b>WhatsApp</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="https://www.linkedin.com/in/vinicius-gava-87b734353/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:gavadeoliveira@outlook.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/VgavaBR123">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://portfolio-tan-ten-22.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+<a href="https://wa.me/5569993706233">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>
 
-<br/>
+<br/><br/>
 
-<img src="https://img.shields.io/badge/STATUS-OPEN_FOR_COLLABORATIONS-00e5ff?style=for-the-badge&labelColor=0a0f1a" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=435&lines=LET'S+BUILD+THE+FUTURE;SAY+HELLO+ON+WHATSAPP;OPEN+FOR+NEW+PROJECTS" alt="Typing SVG" />
 
 </div>
 
