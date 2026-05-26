@@ -358,7 +358,9 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <div align="center">
 
-[![trophies](https://github-profile-trophy.vercel.app/?username=VgavaBR123&theme=darkhub&no-bg=true&no-frame=true&column=7&title=Stars,Commits,Repositories,MultipleLang,PullRequest,Issues,Followers)](https://github.com/VgavaBR123)
+<a href="https://github.com/vgavabr123">
+  <img src="https://github-profile-trophy.vercel.app/?username=vgavabr123&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=15&v=2" alt="trophies" />
+</a>
 
 </div>
 
