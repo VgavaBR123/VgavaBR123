@@ -1,114 +1,363 @@
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  github.com/VgavaBR123                                      ║ -->
+<!-- ║  Profile README — v3.0                                      ║ -->
+<!-- ║  3 custom animated SVGs · terminal aesthetic · 2026          ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
 <div align="center">
 
-<!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a7f37&height=220&section=header&text=Vinicius%20Gava&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Mechatronic%20Engineer%20•%20Data%20Science%20•%20Gov%20Tech&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
-
-<!-- TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Diretor+de+Tecnologia+%7C+SEMEC+Porto+Velho;Dados+%2B+Automa%C3%A7%C3%A3o+%2B+IA+para+o+Setor+P%C3%BAblico)](https://git.io/typing-svg)
+<!-- ▸▸▸ ANIMATED SVG HEADER ▸▸▸ -->
+<a href="https://github.com/VgavaBR123">
+  <img src="header.svg" alt="Vinicius Gava — Mechatronic Engineer · Data Science · GovTech Director" width="100%" />
+</a>
 
 </div>
 
----
+<!-- ▸▸▸ ABOUT — terminal style ▸▸▸ -->
 
-## 🧭 Sobre Mim
+```
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  ~/vgava ❯ whoami                                                            │
+│                                                                              │
+│  Engenheiro Mecatrônico de formação.                                         │
+│  Pós-graduando em Ciência de Dados.                                          │
+│  Diretor do Departamento de Tecnologia (DTI)                                 │
+│  Secretaria Municipal de Economia — Porto Velho, RO.                         │
+│                                                                              │
+│  Construo pipelines de dados fiscais, malhas automatizadas de                │
+│  conformidade tributária por CNPJ e agentes de IA para o setor público.      │
+│                                                                              │
+│  ~/vgava ❯ cat side_quests.txt                                               │
+│                                                                              │
+│  🖨️ Smart Print — ecossistema de impressão 3D                                │
+│  🧩 Model Context Protocol — LLMs conectados a ferramentas locais           │
+│  🎨 UI/UX · Figma · GSAP — porque engenheiro também faz design              │
+│                                                                              │
+│  ~/vgava ❯ echo $PHILOSOPHY                                                  │
+│  "Dados bem orquestrados são decisões públicas mais inteligentes."           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
 
-Engenheiro Mecatrônico de formação, pós-graduando em **Ciência de Dados** e atualmente **Diretor do Departamento de Tecnologia (DTI)** na Secretaria Municipal de Economia de Porto Velho — RO.
-
-Meu trabalho se concentra na interseção entre **engenharia de dados**, **inteligência artificial** e **gestão pública**, liderando projetos de **malha fiscal automatizada**, conformidade tributária por CNPJ e modernização de sistemas municipais. Acredito que dados bem orquestrados são a base para decisões públicas mais inteligentes e transparentes.
-
-Fora do setor público, sou fundador da **🖨️ Smart Print**, uma empresa voltada ao ecossistema de impressão 3D — onde engenharia, design e empreendedorismo se encontram.
-
----
-
-## ⚙️ Stack & Tecnologias
-
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
 <div align="center">
-
-### 💻 Linguagens & Core
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Dart](https://img.shields.io/badge/Dart-0d1117?style=for-the-badge&logo=dart&logoColor=0175C2)
-
-### 🏗️ Data Engineering & DevOps
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Supabase](https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=009688)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=5FA04E)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-0d1117?style=for-the-badge&logo=cloudflare&logoColor=F38020)
-
-### 🎨 Design & Frontend
-
-![Figma](https://img.shields.io/badge/Figma-0d1117?style=for-the-badge&logo=figma&logoColor=F24E1E)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-0d1117?style=for-the-badge&logo=flutter&logoColor=02569B)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=FFFFFF)
-![GSAP](https://img.shields.io/badge/GSAP-0d1117?style=for-the-badge&logo=greensock&logoColor=88CE02)
-
-### 🤖 IA & Ferramentas
-
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=FFFFFF)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-0d1117?style=for-the-badge&logo=anthropic&logoColor=D4A574)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-0d1117?style=for-the-badge&logo=anthropic&logoColor=58A6FF)
-![Obsidian](https://img.shields.io/badge/Obsidian-0d1117?style=for-the-badge&logo=obsidian&logoColor=7C3AED)
-
+  <img src="divider.svg" width="100%" />
 </div>
 
----
+<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
 
-## 📊 GitHub Stats
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;STACK&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="225">
+
+**`// linguagens`**
+<br/><br/>
+<a href="#">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,dart&theme=dark&perline=4" height="44" />
+</a>
+<br/>
+<sub>Python · JavaScript · TypeScript · Dart</sub>
+
+</td>
+<td align="center" width="225">
+
+**`// data & infra`**
+<br/><br/>
+<a href="#">
+  <img src="https://skillicons.dev/icons?i=postgres,docker,supabase,linux&theme=dark&perline=4" height="44" />
+</a>
+<br/>
+<sub>PostgreSQL · Docker · Supabase · Linux</sub>
+
+</td>
+<td align="center" width="225">
+
+**`// front & design`**
+<br/><br/>
+<a href="#">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,figma&theme=dark&perline=4" height="44" />
+</a>
+<br/>
+<sub>React · Next.js · Flutter · Figma</sub>
+
+</td>
+<td align="center" width="225">
+
+**`// ai & backend`**
+<br/><br/>
+<a href="#">
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,cloudflare,obsidian&theme=dark&perline=4" height="44" />
+</a>
+<br/>
+<sub>FastAPI · Node.js · Cloudflare · Obsidian</sub>
+
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
+<details>
+<summary>&nbsp;⟐&nbsp;&nbsp;<b>Shields detalhados</b>&nbsp;&nbsp;(clique para expandir)</summary>
+<br/>
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0a0f1a?style=flat-square&logo=python&logoColor=00e5ff)
+![SQL](https://img.shields.io/badge/SQL-0a0f1a?style=flat-square&logo=postgresql&logoColor=00e5ff)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0f1a?style=flat-square&logo=javascript&logoColor=00e5ff)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0f1a?style=flat-square&logo=typescript&logoColor=00e5ff)
+![Dart](https://img.shields.io/badge/Dart-0a0f1a?style=flat-square&logo=dart&logoColor=00e5ff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-0a0f1a?style=flat-square&logo=postgresql&logoColor=4cc9f0)
+![Docker](https://img.shields.io/badge/Docker-0a0f1a?style=flat-square&logo=docker&logoColor=4cc9f0)
+![Supabase](https://img.shields.io/badge/Supabase-0a0f1a?style=flat-square&logo=supabase&logoColor=4cc9f0)
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0f1a?style=flat-square&logo=fastapi&logoColor=4cc9f0)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnel-0a0f1a?style=flat-square&logo=cloudflare&logoColor=4cc9f0)
+![Linux](https://img.shields.io/badge/Linux-0a0f1a?style=flat-square&logo=linux&logoColor=4cc9f0)
+![pgvector](https://img.shields.io/badge/pgvector-0a0f1a?style=flat-square&logo=postgresql&logoColor=7b68ee)
+![React](https://img.shields.io/badge/React-0a0f1a?style=flat-square&logo=react&logoColor=7b68ee)
+![Next.js](https://img.shields.io/badge/Next.js-0a0f1a?style=flat-square&logo=next.js&logoColor=7b68ee)
+![Flutter](https://img.shields.io/badge/Flutter-0a0f1a?style=flat-square&logo=flutter&logoColor=7b68ee)
+![Figma](https://img.shields.io/badge/Figma-0a0f1a?style=flat-square&logo=figma&logoColor=7b68ee)
+![GSAP](https://img.shields.io/badge/GSAP-0a0f1a?style=flat-square&logo=greensock&logoColor=7b68ee)
+![Node.js](https://img.shields.io/badge/Node.js-0a0f1a?style=flat-square&logo=node.js&logoColor=c084fc)
+![OpenAI](https://img.shields.io/badge/OpenAI-0a0f1a?style=flat-square&logo=openai&logoColor=c084fc)
+![Claude](https://img.shields.io/badge/Anthropic_Claude-0a0f1a?style=flat-square&logo=anthropic&logoColor=c084fc)
+![MCP](https://img.shields.io/badge/MCP_Protocol-0a0f1a?style=flat-square&logo=anthropic&logoColor=f0883e)
+![Obsidian](https://img.shields.io/badge/Obsidian-0a0f1a?style=flat-square&logo=obsidian&logoColor=c084fc)
+
+</div>
+</details>
+
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ═══════════════════════════ NOW ═══════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;NOW&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
+
+```python
+class ViniciusGava:
+    """O que está rodando agora."""
+
+    role     = "Diretor DTI @ SEMEC — Porto Velho, RO"
+    edu      = ["Eng. Mecatrônica", "Pós-grad. Ciência de Dados"]
+    company  = "Smart Print — Ecossistema de Impressão 3D"
+
+    projects = {
+        "malha_fiscal": {
+            "desc": "Pipeline automatizado de conformidade tributária",
+            "tech": ["Python", "PostgreSQL", "NFS-e × PGDAS"],
+            "status": "🟢 produção",
+        },
+        "bot_semec": {
+            "desc": "Agente de IA com RAG para atendimento ao cidadão",
+            "tech": ["pgvector", "FastAPI", "LLM"],
+            "status": "🔵 desenvolvimento",
+        },
+        "geo_pipeline": {
+            "desc": "Replicação cadastral via FDW/dblink → Docker",
+            "tech": ["Docker", "PostgreSQL 16", "PowerShell"],
+            "status": "🟢 produção",
+        },
+        "mcp_bridge": {
+            "desc": "LLM bridge server com Model Context Protocol",
+            "tech": ["FastAPI", "OpenRouter", "Cloudflare Tunnel"],
+            "status": "🟡 experimental",
+        },
+    }
+
+    def __repr__(self):
+        return "building the future of public sector tech 🚀"
+```
+
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ═══════════════════════════ ARCHITECTURE ═══════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;ARCHITECTURE&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
+
+```
+                ╔══════════════════════════════════════════════════════════╗
+                ║                   SEMEC TECH STACK                      ║
+                ╚══════════════════════════════════════════════════════════╝
+
+  ┌───────────┐     ┌──────────┐     ┌────────────┐     ┌────────────────┐
+  │  Elotech   │────▸│   FDW    │────▸│  semec_db  │────▸│   Dashboard    │
+  │  (fonte)   │     │  dblink  │     │   Docker   │     │   Análises     │
+  └───────────┘     └──────────┘     └──────┬─────┘     └────────────────┘
+                                            │
+                                   ┌────────┴────────┐
+                                   │                  │
+                              ┌────▾────┐       ┌─────▾──────┐
+                              │pgvector │       │ semec_geo  │
+                              │  RAG    │       │ Cadastral  │
+                              └────┬────┘       └────────────┘
+                                   │
+                            ┌──────▾───────┐
+                            │  Bot SEMEC    │
+                            │  LLM Agent   │
+                            └──────┬───────┘
+                                   │
+                            ┌──────▾───────┐
+                            │   Cidadão     │
+                            │  🏛️  🤖  📊   │
+                            └──────────────┘
+```
+
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ═══════════════════════════ METRICS ═══════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;METRICS&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=VgavaBR123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1a7f37&text_color=8b949e&ring_color=58a6ff&include_all_commits=true&count_private=true" />
+<!-- Stats + Top Langs side by side -->
+<a href="https://github.com/VgavaBR123">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=VgavaBR123&show_icons=true&hide_border=true&bg_color=00000000&title_color=00e5ff&icon_color=7b68ee&text_color=8b949e&ring_color=00e5ff&include_all_commits=true&count_private=true&custom_title=stats%20//%20VgavaBR123" />
+</a>
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VgavaBR123&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" />
+<a href="https://github.com/VgavaBR123">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VgavaBR123&layout=compact&hide_border=true&bg_color=00000000&title_color=00e5ff&text_color=8b949e&langs_count=8&custom_title=linguagens%20//%20top%208" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=VgavaBR123&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=1A7F37&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" />
+<!-- Streak -->
+<a href="https://github.com/VgavaBR123">
+  <img src="https://streak-stats.demolab.com?user=VgavaBR123&hide_border=true&background=00000000&ring=00e5ff&fire=c084fc&currStreakLabel=00e5ff&sideLabels=7b68ee&currStreakNum=e6edf3&sideNums=e6edf3&dates=3b4048" />
+</a>
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<a href="https://github.com/VgavaBR123">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VgavaBR123&bg_color=00000000&color=7b68ee&line=00e5ff&point=c084fc&area_color=00e5ff&area=true&hide_border=true&custom_title=contribui%C3%A7%C3%B5es%20//%20%C3%BAltimos%2031%20dias" />
+</a>
 
 </div>
 
----
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
 
-## 🔭 No que estou trabalhando
-
-- 🏛️ **Malha Fiscal Automatizada** — Pipeline de dados para análise de conformidade tributária (NFS-e × PGDAS) por CNPJ na SEMEC
-- 🤖 **Bot SEMEC** — Agente de IA interno com RAG (pgvector + PostgreSQL) para atendimento ao cidadão
-- 🌐 **Infraestrutura GovTech** — Stack Docker containerizada com PostgreSQL 16, Cloudflare Tunnels e pipelines de replicação geográfica
-- 🧩 **MCP Integrations** — Exploração do Model Context Protocol para conectar LLMs a ferramentas locais e bases de dados
-- 🖨️ **Smart Print** — Expansão do ecossistema de impressão 3D
-
----
-
-## 🧠 Filosofia
-
-> *"A tecnologia no setor público não deveria ser um diferencial — deveria ser o padrão. Dados bem estruturados, automação inteligente e interfaces humanas são o caminho para uma gestão pública que realmente serve."*
-
----
-
-## 📫 Contato
+<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/viniciusgava)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:contato@viniciusgava.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/VgavaBR123)
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VgavaBR123/VgavaBR123/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VgavaBR123/VgavaBR123/output/github-snake.svg" />
+    <img alt="Snake animation — contributions" src="https://raw.githubusercontent.com/VgavaBR123/VgavaBR123/output/github-snake-dark.svg" />
+  </picture>
 
 </div>
 
----
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ═══════════════════════════ TROPHIES ═══════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;TROPHIES&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a7f37&height=100&section=footer" width="100%" />
+[![trophies](https://github-profile-trophy.vercel.app/?username=VgavaBR123&theme=darkhub&no-bg=true&no-frame=true&column=7&title=Stars,Commits,Repositories,MultipleLang,PullRequest,Issues,Followers)](https://github.com/VgavaBR123)
 
-<sub>⚡ Feito com propósito — de Porto Velho para o mundo.</sub>
+</div>
+
+<!-- ▸▸▸ DIVIDER ▸▸▸ -->
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
+
+<h2 align="center">
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+  &nbsp;CONNECT&nbsp;
+  <img src="https://img.shields.io/badge/⟐-0d1117?style=flat-square" height="18"/>
+</h2>
+
+<div align="center">
+
+<a href="https://linkedin.com/in/SEU-LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-0a0f1a?style=for-the-badge&logo=linkedin&logoColor=00e5ff" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:SEU-EMAIL">
+  <img src="https://img.shields.io/badge/Email-0a0f1a?style=for-the-badge&logo=gmail&logoColor=c084fc" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/VgavaBR123">
+  <img src="https://img.shields.io/badge/GitHub-0a0f1a?style=for-the-badge&logo=github&logoColor=7b68ee" />
+</a>
+
+</div>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+
+<br/>
+
+<div align="center">
+
+```
+ ╭──────────────────────────────────────────────────────────────────╮
+ │                                                                  │
+ │  ⚡ "A tecnologia no setor público não deveria ser diferencial   │
+ │      — deveria ser o padrão."                                    │
+ │                                                                  │
+ │  📍 Porto Velho, Rondônia, Brasil                                │
+ │  🖨️ Smart Print — impressão 3D                                   │
+ │  🏛️ SEMEC — dados fiscais + IA                                   │
+ │                                                                  │
+ ╰──────────────────────────────────────────────────────────────────╯
+```
+
+<br/>
+
+<!-- ▸▸▸ ANIMATED SVG FOOTER ▸▸▸ -->
+<img src="footer.svg" width="100%" />
+
+<br/>
+
+<!-- visitor counter — stealth mode -->
+<img src="https://komarev.com/ghpvc/?username=VgavaBR123&style=flat-square&color=0a0f1a&labelColor=0a0f1a&label=_" height="1"/>
 
 </div>
