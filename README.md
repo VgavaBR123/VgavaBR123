@@ -358,25 +358,44 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/vinicius-gava-87b734353/">
-  <img src="https://img.shields.io/badge/LinkedIn-0a0f1a?style=for-the-badge&logo=linkedin&logoColor=00e5ff" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:gavadeoliveira@outlook.com">
-  <img src="https://img.shields.io/badge/Email-0a0f1a?style=for-the-badge&logo=gmail&logoColor=c084fc" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/VgavaBR123">
-  <img src="https://img.shields.io/badge/GitHub-0a0f1a?style=for-the-badge&logo=github&logoColor=7b68ee" />
-</a>
-&nbsp;&nbsp;
-<a href="https://portfolio-tan-ten-22.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-0a0f1a?style=for-the-badge&logo=vercel&logoColor=00e5ff" />
-</a>
-&nbsp;&nbsp;
-<a href="https://wa.me/5569993706233">
-  <img src="https://img.shields.io/badge/WhatsApp-0a0f1a?style=for-the-badge&logo=whatsapp&logoColor=25D366" />
-</a>
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <a href="https://www.linkedin.com/in/vinicius-gava-87b734353/">
+        <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
+        <br/><sub><b>LinkedIn</b></sub>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <a href="mailto:gavadeoliveira@outlook.com">
+        <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" height="50" alt="Email" />
+        <br/><sub><b>Email</b></sub>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <a href="https://github.com/VgavaBR123">
+        <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
+        <br/><sub><b>GitHub</b></sub>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <a href="https://portfolio-tan-ten-22.vercel.app/">
+        <img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="50" height="50" alt="Portfolio" />
+        <br/><sub><b>Portfolio</b></sub>
+      </a>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <a href="https://wa.me/5569993706233">
+        <img src="https://skillicons.dev/icons?i=workers&theme=dark" width="50" height="50" alt="WhatsApp" />
+        <br/><sub><b>WhatsApp</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://img.shields.io/badge/STATUS-OPEN_FOR_COLLABORATIONS-00e5ff?style=for-the-badge&labelColor=0a0f1a" />
 
 </div>
 
@@ -386,17 +405,17 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <div align="center">
 
-```
- ╭──────────────────────────────────────────────────────────────────╮
- │                                                                  │
- │  ⚡ "A tecnologia no setor público não deveria ser diferencial   │
- │      — deveria ser o padrão."                                    │
- │                                                                  │
- │  📍 Porto Velho, Rondônia, Brasil                                │
- │  🖨️ Smart Print — impressão 3D                                   │
- │  🏛️ SEMEC — dados fiscais + IA                                   │
- │                                                                  │
- ╰──────────────────────────────────────────────────────────────────╯
+```text
+╭──────────────────────────────────────────────────────────────────╮
+│  🚀 System Status: Operational                                   │
+├──────────────────────────────────────────────────────────────────┤
+│  ⚡ "A tecnologia no setor público não deveria ser diferencial   │
+│      — deveria ser o padrão."                                    │
+│                                                                  │
+│  📍 Porto Velho, Rondônia, Brasil                                │
+│  🖨️ Smart Print — ecossistema de impressão 3D                    │
+│  🏛️ SEMEC — Inteligência Artificial & Dados                      │
+╰──────────────────────────────────────────────────────────────────╯
 ```
 
 <br/>
