@@ -316,26 +316,13 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 <div align="center">
 
 <!-- Stats + Top Langs side by side -->
-<a href="https://github.com/VgavaBR123">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=vgavabr123&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&v=3" alt="Github Stats" />
-</a>
-<a href="https://github.com/VgavaBR123">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=vgavabr123&layout=compact&langs_count=8&theme=radical&hide_border=true&v=3" alt="Top Languages" />
-</a>
-
-<br/><br/>
-
-<!-- Streak -->
-<a href="https://github.com/VgavaBR123">
-  <img src="https://streak-stats.demolab.com?user=vgavabr123&hide_border=true&theme=radical&v=3" />
-</a>
-
-<br/><br/>
 
 <!-- Activity Graph -->
+<div align="center">
 <a href="https://github.com/VgavaBR123">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vgavabr123&bg_color=0d1117&color=fe428e&line=00e5ff&point=c084fc&area=true&hide_border=true&v=3" />
 </a>
+</div>
 
 </div>
 
