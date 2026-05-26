@@ -317,24 +317,24 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <!-- Stats + Top Langs side by side -->
 <a href="https://github.com/VgavaBR123">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=VgavaBR123&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=7b68ee&text_color=8b949e&ring_color=00e5ff&include_all_commits=true&count_private=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=vgavabr123&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&v=3" alt="Github Stats" />
 </a>
 <a href="https://github.com/VgavaBR123">
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs?username=VgavaBR123&layout=compact&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=8b949e&langs_count=8" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=vgavabr123&layout=compact&langs_count=8&theme=radical&hide_border=true&v=3" alt="Top Languages" />
 </a>
 
 <br/><br/>
 
 <!-- Streak -->
 <a href="https://github.com/VgavaBR123">
-  <img src="https://streak-stats.demolab.com?user=VgavaBR123&hide_border=true&background=0d1117&ring=00e5ff&fire=c084fc&currStreakLabel=00e5ff&sideLabels=7b68ee&currStreakNum=e6edf3&sideNums=e6edf3&dates=3b4048" />
+  <img src="https://streak-stats.demolab.com?user=vgavabr123&hide_border=true&theme=radical&v=3" />
 </a>
 
 <br/><br/>
 
 <!-- Activity Graph -->
 <a href="https://github.com/VgavaBR123">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VgavaBR123&bg_color=0d1117&color=7b68ee&line=00e5ff&point=c084fc&area_color=00e5ff&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vgavabr123&bg_color=0d1117&color=fe428e&line=00e5ff&point=c084fc&area=true&hide_border=true&v=3" />
 </a>
 
 </div>
