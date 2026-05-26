@@ -317,25 +317,24 @@ front-end hero × back-end hero · engenharia mecatrônica · IoT · automação
 
 <!-- Stats + Top Langs side by side -->
 <a href="https://github.com/VgavaBR123">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=VgavaBR123&show_icons=true&hide_border=true&bg_color=00000000&title_color=00e5ff&icon_color=7b68ee&text_color=8b949e&ring_color=00e5ff&include_all_commits=true&count_private=true&custom_title=stats%20//%20VgavaBR123" />
+  <img height="195" src="https://github-readme-stats.vercel.app/api?username=VgavaBR123&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=7b68ee&text_color=8b949e&ring_color=00e5ff&include_all_commits=true&count_private=true" />
 </a>
-&nbsp;&nbsp;
 <a href="https://github.com/VgavaBR123">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VgavaBR123&layout=compact&hide_border=true&bg_color=00000000&title_color=00e5ff&text_color=8b949e&langs_count=8&custom_title=linguagens%20//%20top%208" />
+  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs?username=VgavaBR123&layout=compact&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=8b949e&langs_count=8" />
 </a>
 
 <br/><br/>
 
 <!-- Streak -->
 <a href="https://github.com/VgavaBR123">
-  <img src="https://streak-stats.demolab.com?user=VgavaBR123&hide_border=true&background=00000000&ring=00e5ff&fire=c084fc&currStreakLabel=00e5ff&sideLabels=7b68ee&currStreakNum=e6edf3&sideNums=e6edf3&dates=3b4048" />
+  <img src="https://streak-stats.demolab.com?user=VgavaBR123&hide_border=true&background=0d1117&ring=00e5ff&fire=c084fc&currStreakLabel=00e5ff&sideLabels=7b68ee&currStreakNum=e6edf3&sideNums=e6edf3&dates=3b4048" />
 </a>
 
 <br/><br/>
 
 <!-- Activity Graph -->
 <a href="https://github.com/VgavaBR123">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VgavaBR123&bg_color=00000000&color=7b68ee&line=00e5ff&point=c084fc&area_color=00e5ff&area=true&hide_border=true&custom_title=contribui%C3%A7%C3%B5es%20//%20%C3%BAltimos%2031%20dias" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VgavaBR123&bg_color=0d1117&color=7b68ee&line=00e5ff&point=c084fc&area_color=00e5ff&area=true&hide_border=true" />
 </a>
 
 </div>
